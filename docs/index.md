@@ -29,7 +29,6 @@
     - [2017/06 - 2017/07 : 住宅メーカー向けカスタマイズ回答事例公開システム](#201706---201707--住宅メーカー向けカスタマイズ回答事例公開システム)
 - [課外活動](#課外活動)
   - [個人開発](#個人開発)
-  - [執筆](#執筆)
 
 
 
@@ -39,6 +38,7 @@
 |---|-----|
 |Name|堀切 佑太郎（ほりきり ゆうたろう）|
 |Bluesky|[@y-horikiri](https://bsky.app/profile/y-horikiri.bsky.social)|
+|Qiita|[@y_horikiri](https://qiita.com/y_horikiri)
 
 ## スキル
 ### 言語
@@ -47,10 +47,10 @@
   - FastAPI
 - Rust
 - Go
+- TypeScript
 - SQL
 - Bash
 - C#
-- JavaScript
 - Ruby
 - PHP
 - HTML, CSS
@@ -353,5 +353,3 @@ Webアプリの開発。
   ボトルメールをモチーフとしたシンプルなSNS。
   言語はRuby(3系), フレームワークはRails(6系)を使用。
 
-### 執筆
-* [Qiita](https://qiita.com/y_horikiri)

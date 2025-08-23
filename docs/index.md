@@ -4,25 +4,25 @@
 
 ## 基本情報
 
-|key|value|
-|---|-----|
-|Name|堀切 佑太郎（ほりきり ゆうたろう）|
-|Bluesky|[@y-horikiri](https://bsky.app/profile/y-horikiri.bsky.social)|
-|Qiita|[@y_horikiri](https://qiita.com/y_horikiri)
+| key     | value                                                          |
+| ------- | -------------------------------------------------------------- |
+| Name    | 堀切 佑太郎（ほりきり ゆうたろう）                             |
+| Bluesky | [@y-horikiri](https://bsky.app/profile/y-horikiri.bsky.social) |
+| Qiita   | [@y_horikiri](https://qiita.com/y_horikiri)                    |
 
 ## スキル
 ### 言語
 - Python
-  - Django
   - FastAPI
+  - Django
 - Rust
 - Go
 - TypeScript
+  - React.js
+  - Refine
 - SQL
 - Bash
 - C#
-- Ruby
-- PHP
 - HTML, CSS
 
 ### インフラ
@@ -33,14 +33,13 @@
   - WAF
   - VPC
   - S3
-  - RDS
+  - RDS, Aurora
   - SES
   - SNS
   - DocumentDB
   - ElastiCache
   - CloudWatch
   - EventBridge
-  - StepFunction
   - CodeBuild
   - AppSync
   - Lambda
@@ -49,11 +48,12 @@
   - Kinesis Data Firehose
   - OpenSearch（ElasticSearch）
   - Elemental MediaConvert
+  - CloudShell
+- Supabase
 - Terraform
 - AWS CDK
 - Docker
 - Kubernetes
-- fluent-bit
 
 ### 開発手法
 - ウォーターフォール
@@ -63,10 +63,15 @@
 ### 開発ツール
 - Git
 - GitHub
+  - Actions
 - Postman
 - Gatling
 - Locust
 - VSCode
+- AIエージェント系
+  - Devin
+  - Claude Code
+  - GitHub Copilot
 
 ### その他ツール
 - Slack
@@ -77,12 +82,19 @@
 - Confluence
 - Google Workspace
 - Microsoft Excel
+- FigJam
 
 ### 資格
 - AWS クラウドプラクティショナー（2023年11月）
 - AWS システムアーキテクト アソシエイト（2024年2月）
 - 基本情報技術者試験（2018年5月）
+- 応用情報技術者試験（2025年4月）
 - 日商簿記2級（2013年2月）
+
+### ビジネススキル系
+- アーキテクチャ理解
+  - パフォーマンスやセキュリティ、運用のしやすさも考慮してシステム構成の設計ができる
+- ドキュメント作成
 
 ### 自然言語
 - 日本語
@@ -95,15 +107,15 @@
 ### その他
 - DTM（作曲）
   - ボーカロイド楽曲の最高再生数は14000（ニコニコ動画）
+- キーボード
+  - KeychronのAlice配列が好き
 
 ## 強み
-- 新規技術の習得に抵抗がない
-
-会社の特性上、言語もOSも異なるプロジェクトに移動することが多いが、それが初見だったとしても人より早く慣れることができる。
-
-- 要件のキャッチアップが早い
-
-業務システムのような複雑な要件のシステムの開発に慣れている。
+- ドキュメントを作成する習慣
+  - 自分がプロジェクトをいつ離れてもよいように、技術調査、設計、複雑な実装についてなどのドキュメントはなるべく残すようにしている
+- プロジェクト全体を俯瞰する意識
+  - PMが忙しく、必要な対応ができていない時、自分ができることならやってしまい、できないことならリマインドするなど
+  - 「話題にそれまで出ていなかったが検討が必要な課題」を見つけることがある
 
 
 ## 職務経歴
@@ -113,6 +125,22 @@
 
 ### 2022/02 - : フィグニー株式会社
 サーバーサイドエンジニアとして入社。
+
+---
+#### 2025/05 - 2025/08 : ECサイト向けギフトサービス
+- Python
+  - FastAPI
+  - SQLAlchemy
+- AWS
+  - ECS
+  - Amplify
+  - Aurora Serverless
+  - Lambda
+  - SES
+  - CDK
+
+既存ECサイトにAPIとWebhookで連携して組み込む、商品をギフトとして贈れるサービス。  
+外部連携用のAPIを作成するのは初めて。外部の開発者向けにドキュメントを分かりやすく作成することを意識した。  
 
 ---
 #### 2024/12 - 2025/05 : 人事評価システムリプレース
